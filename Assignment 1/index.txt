@@ -1,0 +1,56 @@
+Q1. What is Emmet?
+
+Ans. Emmet is a free add-on for text editors. It allows you to type shortcuts that are then expanded to full peice of code. It helps reducing time, effort required to write repetive HTML and CSS.
+
+Q2. Difference between a Library and Framework?
+
+Ans. A library and a framework are both code structures that can help developers write applications faster and more efficiently. However, they are different in the way they are used and the level of control they provide to the developer.
+
+A library is a collection of pre-written code that developers can call upon to perform specific tasks. A developer can choose to use as much or as little of the library as they like, and they have complete control over the flow of their application.
+
+A framework, on the other hand, provides a set structure for building applications. A framework defines how an application should be built, and the developer has to work within its constraints. The framework provides a set of pre-written code, but it also dictates the overall flow of the application.
+
+In summary, a library provides you with tools to solve specific problems, while a framework provides you with a structure to build your application upon, and often dictates the flow and architecture of the code.
+
+Q3. What is CDN? Why do we use it?
+
+Ans. A Content Delivery Network (CDN) is a globally distributed network of servers that cache and serve content, such as images, videos, and applications, to users based on their location.
+
+We use CDN for several reasons:
+
+Improved performance: By caching and serving content from a server close to the user, CDN reduces the latency and improves the speed of delivery, leading to a faster, smoother user experience.
+
+Scalability: CDN can handle large amounts of traffic, allowing websites and applications to scale to meet increased demand without any downtime.
+
+High availability: By serving content from multiple servers in different locations, CDN ensures that users can access content even if a server fails or is unavailable.
+
+Security: CDN provides features such as DDoS protection and SSL encryption to help secure websites and applications and protect against security threats.
+
+Cost savings: CDN reduces the load on a website's main server, freeing up resources and helping to reduce hosting costs.
+
+Overall, CDN is used to improve the performance, scalability, availability, security, and cost-effectiveness of websites and applications, making them more accessible and user-friendly for a global audience.
+
+Q4. Why is React known as React?
+
+Ans. React is named after its core feature: reactive updates to user interfaces. The idea behind React is to build user interfaces that automatically update when the underlying data changes, instead of requiring developers to manually update the interface every time the data changes.
+
+This reactive approach to building user interfaces allows for more efficient, flexible, and scalable front-end development, making it easier for developers to build complex and dynamic web applications. The "React" name was chosen to reflect this core feature and to distinguish the library from other front-end libraries and frameworks.
+
+In short, React is called React because of its ability to react to changes in data and update the user interface accordingly, making it a fast and efficient tool for building dynamic web applications.
+
+Q5. What is crossorigin in script tag?
+
+Ans. The "crossorigin" attribute in a script tag is used to specify the type of cross-origin request (CORS) to be made when loading a script from a different domain. 
+
+Q6. What is diference between React and ReactDOM
+
+Ans. React is the core library for building user interfaces with React, while ReactDOM is the specific renderer for the DOM that is used to display those user interfaces in a web browser.
+
+Q7. What is difference between react.development.js and react.production.js files via CDN?
+
+Ans. React.development.js is the development version of React, which is intended for use during development and testing, while React.production.js is the production version of React, which is optimized for performance and deployment to a live website.
+
+Q8. What is async and defer?
+
+Ans. "async" is used to specify that a script should be executed asynchronously, while "defer" is used to specify that a script should be executed only after the page has finished loading, in the order that it appears in the HTML.
+
