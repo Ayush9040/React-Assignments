@@ -1,0 +1,50 @@
+Q1. What is `NPM`?
+
+Ans. To make production ready app the react is not always enough so actually we need several other packages along with react to make it production ready and when there is need to manage packages there is need of package manager and NPM is one of the package manager that help developer to install packages in our project and also help to manage them.
+
+
+Q2. What is `Parcel/Webpack`? Why do we need it?
+
+Ans.  To install parcel inside our web app we must have npm installed in our system. Parcel is a bundler and overall the role of bundler is to make the process of developing, building and deploying web application more efficient and streamlined, allowing developers to focus on writing code and creating great user experience.
+
+We need it because:
+1. package management
+2. faster performance
+3. caching
+4. Image optimization
+5. video optimization
+6. Easy set up
+7. bundling things up
+8. minifing app
+9. compression
+10. consistent hashing algorithm
+11. Making code compatible with other browsers
+12. Tree Shaking
+
+
+Q3. What is `.parcel-cache`?
+
+Ans. Parcel-cache is a caching layer of parcel, a javascript bundler. It acts as a cache storage system that can act as a build output of parcel and reuse it across multiple builds which can significantly speed up the build process.
+
+parcel-cache avoids re-building parts of the application that haven't changed, reducing the time it takes to complete a build and improving the overall development experience. This can be particularly useful for large and complex projects, where the build time can be substantial.
+
+
+Q4. What is `npx` ?
+
+Ans. 
+
+
+● - What is difference between `dependencies` vs `devDependencies`
+● - What is Tree Shaking?
+● - What is Hot Module Replacement?
+● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+● - What is `.gitignore`? What should we add and not add into it?
+● - What is the difference between `package.json` and `package-lock.json`
+● - Why should I not modify `package-lock.json`?
+● - What is `node_modules` ? Is it a good idea to push that on git?
+● - What is the `dist` folder?
+● - What is `browserlists`
+Read about dif bundlers: vite, webpack, parcel
+● Read about: ^ - caret and ~ - tilda
+● Read about Script types in html (MDN Docs)
