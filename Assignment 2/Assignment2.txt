@@ -31,20 +31,69 @@ parcel-cache avoids re-building parts of the application that haven't changed, r
 
 Q4. What is `npx` ?
 
-Ans. 
+Ans. npx is a package runner tool which comes with npm. You can execute Node.js package using npx without installing it inside your local environment or globally.
 
 
-● - What is difference between `dependencies` vs `devDependencies`
-● - What is Tree Shaking?
-● - What is Hot Module Replacement?
-● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+Q5. What is difference between `dependencies` vs `devDependencies`?
+
+Ans. Thera are two sections in package.json the one is dependencies and other is devDependencies. So, the packages which are written in dependencies these are those packages which are required for production and devDependencies include those packages which are required for development purposes and it is not pushed to production.
+
+
+Q6. What is Tree Shaking?
+
+Ans. Tree Shaking is a technique used in modern javascript bundler to eliminate unused code from final bundled code that gots shipped to the client. 
+
+
+Q7.  What is Hot Module Replacement?
+
+Ans. It is a feature that allows faster and more efficient development by enabling developers to make changes to their code and see the result instantly, without having to reload the entire page.
+
+
+Q8. List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
 own words.
-● - What is `.gitignore`? What should we add and not add into it?
-● - What is the difference between `package.json` and `package-lock.json`
-● - Why should I not modify `package-lock.json`?
-● - What is `node_modules` ? Is it a good idea to push that on git?
-● - What is the `dist` folder?
-● - What is `browserlists`
-Read about dif bundlers: vite, webpack, parcel
-● Read about: ^ - caret and ~ - tilda
-● Read about Script types in html (MDN Docs)
+
+Ans. 1. Easy set up -> It is a zero config app in which no configuration is required to use parcel.
+
+2. HMR -> It is a feature that allows faster and more efficient development by enabling developers to make changes to their code and see the result instantly, without having to reload the entire page.
+
+3. Tree Shaking -> It is a technique used in modern javascript bundler to eliminate unused code from final bundled code that got shipped to the client.
+
+4. caching
+
+5. media optimization
+
+
+
+Q9. What is `.gitignore`? What should we add and not add into it?
+
+Ans.  .gitignore is a file in git repository which tells that these are the directories and files whose track is not necessary. 
+
+-> Files which we include in our .gitignore file like are large binary files, temporary files and sensitive information.
+
+-> Files which should not be included in .gitignore file are sourcecode files and third party libraries such as dependencies and plugins 
+
+
+Q10. What is the difference between `package.json` and `package-lock.json`?
+
+Ans. Package.json defines the desired version of package you want to use in your project while package.lock.json defines the exact version of package and their dependencies that are installed in your project. 
+
+
+Q11. Why should I not modify `package-lock.json`?
+
+Ans.It is recomended not to make changes to package-lock.json because it contains the exact version of dependencies and packages that is used in the project. It is meant to be read only file.
+
+
+Q12.  What is `node_modules` ? Is it a good idea to push that on git?
+
+Ans. Node-module contains all the code of packages and their dependencies involved in the project so, thats why node modules is also known as database for npm. It is not at all recomended to push node_modules folder to git instead we know it contains the code of packages and dependencies installed so we can instead push package.json and Package-lock.json to git so that whenever we run command npm install it will install all the packages which is required in project.
+
+
+Q13. What is the `dist` folder?
+
+Ans. It is a folder which is generally created after the build process actually this folder contains the optimized and minified version of source code Actually this folder contains the code which is ready for deployment. 
+
+
+Q14. What is `browserlists`?
+
+Ans. It is a configuration files that tells which browser your project supports and those are the browser on which your project will definetly run it doesnot mean that it will not run on other browser it will run but it will definetly run on the browsers that has been listed.
+
