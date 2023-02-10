@@ -10,11 +10,8 @@ const heading2 = React.createElement("h2",{className: "sub", style: 'text-align:
 
 const container = React.createElement("div", {id: "container"}, [heading1, heading2]);
 
-console.log(container);
-const home = document.getElementById("root");
-
-
-const ok = ReactDOM.createRoot(home);
-
-ok.render(container);
+// console.log(container);
+// const home = document.getElementById("root");
+// const ok = ReactDOM.createRoot(home);
+// ok.render(container);
 
