@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>React</title>
+    <title>coding</title>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+    </div>
 
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script>
-        var root = document.getElementById('root');
-        var headingOne = React.createElement('h1', { id: 'h1', class: 'ok'}, "h1");
-        var headingTwo = React.createElement('h2', { id: 'h2', class: 'ok'}, "h2");
-        var container = React.createElement('div', { class: 'container'}, [headingOne,headingTwo]);
-        console.log(container);
 
-        const home = ReactDOM.createRoot(root);
-        home.render(container);
+    <script>
+        const Mhead = React.createElement("h1",{}, "h1");
+        const Shead = React.createElement("h3",{class: "23"}, "h3");
+
+        const contain = React.createElement("div",{id: "oj"}, [Mhead, Shead]);
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(contain);
     </script>
 </body>
 </html>
