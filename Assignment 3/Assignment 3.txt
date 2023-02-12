@@ -1,0 +1,23 @@
+Q1. What is JSX?
+
+Ans. First of all JSX is not a mandatory for react. JSX is syntax extension of Javascript that allows you to write HTML like code with in Javascript code. JSX is not HTML.
+
+Q2. Superpower of JSX?
+
+Ans. 1. Easy to read and write
+     2. Easy to debug
+     3. Better performance
+     4. Enhanced functionality
+     5. Enables component based architecture
+
+Q3. role of type attribute in script tag? what options can be use there?
+
+Ans. The type attribute in script tag specifies what type of script is being included in HTML document.
+
+values can be like:
+1. text/Javascript
+2. text/html
+3. text/css
+4. application/Javascript
+5. application/json
+6. module
